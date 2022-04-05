@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Raleway Regular';
     src: local('Raleway Regular');
-    src: url('fonts/raleway/static/Raleway-Regular.ttf');
+    src: url('../fonts/raleway/static/Raleway-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Raleway Extra Bold';
     src: local('Raleway Extra Bold');
-    src: url('fonts/raleway/static/Raleway-ExtraBold.ttf');
+    src: url('../fonts/raleway/static/Raleway-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,8 +17,8 @@
 @font-face {
     font-family: 'Montserrat Regular';
     src: local('Montserrat Regular');
-    src: url('fonts/montserrat/Montserrat-Regular.otf');
-    src: url('fonts/montserrat/static/Montserrat-Regular.ttf');
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+    src: url('../fonts/montserrat/static/Montserrat-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,8 +26,8 @@
 @font-face {
     font-family: 'Montserrat Light';
     src: local('Montserrat Light');
-    src: url('fonts/montserrat/Montserrat-Light.otf');
-    src: url('fonts/montserrat/static/Montserrat-Light.ttf');
+    src: url('../fonts/montserrat/Montserrat-Light.otf');
+    src: url('../fonts/montserrat/static/Montserrat-Light.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +46,7 @@ body {
 .main-header {
     padding: 40px 0 0 0;
     width: auto;
-    background-image: url('img/photo.png');
+    background-image: url('../img/photo.png');
     background-size: cover;
     background-color: #8e8d8f;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .search-in {
-    background-image: url(img/icon-search.svg);
+    background-image: url(../img/icon-search.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 27px;
@@ -580,7 +580,7 @@ body {
     width: 100%;
     height: auto;
     max-height: 100%;
-    background-image: url(img/photo77.png);
+    background-image: url(../img/photo77.png);
     margin: 0 auto;
 
 }
@@ -599,7 +599,7 @@ body {
     content: "";
     margin: 0 auto;
     width: 100%;
-    background: url(img/iphone_in_hand.png) no-repeat;
+    background: url(../img/iphone_in_hand.png) no-repeat;
     background-position: 14% 60px;
     padding: 10% 350px 18% 188px;
     box-sizing: border-box;
@@ -646,7 +646,7 @@ body {
     width: 21px;
     height: 21px;
     border-radius: 50%;
-    background: url(img/03.svg) no-repeat center;
+    background: url(../img/03.svg) no-repeat center;
     background-size: cover;
     color: white;
     position: absolute;
@@ -832,7 +832,7 @@ body {
     box-sizing: border-box;
     padding: 138px 0 138px 0;
 
-    background: url(img/photo11.png);
+    background: url(../img/photo11.png);
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -1120,7 +1120,7 @@ footer {
         left: 0;
         width: 100%;
         height: 100%;
-        background: url(img/photo.png);
+        background: url(../img/photo.png);
         z-index: 3;
     }
 
@@ -1183,7 +1183,7 @@ footer {
         left: 0;
         width: 100%;
         height: 100%;
-        background: url(img/photo.png);
+        background: url(../img/photo.png);
         padding: 67px 0 0 0;
         transition: all 0.3s ease 0s;
         overflow: auto;
