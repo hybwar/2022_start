@@ -483,7 +483,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 70%;
+    /*max-width: 70%; */
     box-sizing: border-box;
 }
 
@@ -660,6 +660,7 @@ body {
     justify-content: center;
     background-image: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background-image: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    padding-top: 15px;
 }
 
 .static-all {
@@ -1222,6 +1223,10 @@ footer {
 
     .static-all {
         margin: 15px;
+    }
+    
+    .project-article {
+        max-width: 100%;
     }
 
     .recent-p {
